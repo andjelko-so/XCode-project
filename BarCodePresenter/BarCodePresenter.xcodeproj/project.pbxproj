@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC80A76138D3C320032BE8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC80A75138D3C320032BE8B /* UIKit.framework */; };
+		8CC80A78138D3C320032BE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC80A77138D3C320032BE8B /* Foundation.framework */; };
+		8CC80A7A138D3C320032BE8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC80A79138D3C320032BE8B /* CoreGraphics.framework */; };
+		8CC80A80138D3C320032BE8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CC80A7E138D3C320032BE8B /* InfoPlist.strings */; };
+		8CC80A83138D3C320032BE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC80A82138D3C320032BE8B /* main.m */; };
+		8CC80A86138D3C320032BE8B /* BarCodePresenterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC80A85138D3C320032BE8B /* BarCodePresenterAppDelegate.m */; };
+		8CC80A89138D3C320032BE8B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC80A87138D3C320032BE8B /* MainWindow.xib */; };
+		8CC80A8C138D3C320032BE8B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC80A8B138D3C320032BE8B /* RootViewController.m */; };
+		8CC80A8F138D3C320032BE8B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC80A8D138D3C320032BE8B /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CC80A71138D3C320032BE8B /* BarCodePresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodePresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC80A75138D3C320032BE8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CC80A77138D3C320032BE8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CC80A79138D3C320032BE8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CC80A7D138D3C320032BE8B /* BarCodePresenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarCodePresenter-Info.plist"; sourceTree = "<group>"; };
+		8CC80A7F138D3C320032BE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CC80A81138D3C320032BE8B /* BarCodePresenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarCodePresenter-Prefix.pch"; sourceTree = "<group>"; };
+		8CC80A82138D3C320032BE8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CC80A84138D3C320032BE8B /* BarCodePresenterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarCodePresenterAppDelegate.h; sourceTree = "<group>"; };
+		8CC80A85138D3C320032BE8B /* BarCodePresenterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarCodePresenterAppDelegate.m; sourceTree = "<group>"; };
+		8CC80A88138D3C320032BE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8CC80A8A138D3C320032BE8B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8CC80A8B138D3C320032BE8B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8CC80A8E138D3C320032BE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC80A6E138D3C320032BE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC80A76138D3C320032BE8B /* UIKit.framework in Frameworks */,
+				8CC80A78138D3C320032BE8B /* Foundation.framework in Frameworks */,
+				8CC80A7A138D3C320032BE8B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC80A66138D3C320032BE8B = {
+			isa = PBXGroup;
+			children = (
+				8CC80A7B138D3C320032BE8B /* BarCodePresenter */,
+				8CC80A74138D3C320032BE8B /* Frameworks */,
+				8CC80A72138D3C320032BE8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC80A72138D3C320032BE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC80A71138D3C320032BE8B /* BarCodePresenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC80A74138D3C320032BE8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC80A75138D3C320032BE8B /* UIKit.framework */,
+				8CC80A77138D3C320032BE8B /* Foundation.framework */,
+				8CC80A79138D3C320032BE8B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CC80A7B138D3C320032BE8B /* BarCodePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				8CC80A84138D3C320032BE8B /* BarCodePresenterAppDelegate.h */,
+				8CC80A85138D3C320032BE8B /* BarCodePresenterAppDelegate.m */,
+				8CC80A87138D3C320032BE8B /* MainWindow.xib */,
+				8CC80A8A138D3C320032BE8B /* RootViewController.h */,
+				8CC80A8B138D3C320032BE8B /* RootViewController.m */,
+				8CC80A8D138D3C320032BE8B /* RootViewController.xib */,
+				8CC80A7C138D3C320032BE8B /* Supporting Files */,
+			);
+			path = BarCodePresenter;
+			sourceTree = "<group>";
+		};
+		8CC80A7C138D3C320032BE8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC80A7D138D3C320032BE8B /* BarCodePresenter-Info.plist */,
+				8CC80A7E138D3C320032BE8B /* InfoPlist.strings */,
+				8CC80A81138D3C320032BE8B /* BarCodePresenter-Prefix.pch */,
+				8CC80A82138D3C320032BE8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC80A70138D3C320032BE8B /* BarCodePresenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC80A92138D3C320032BE8B /* Build configuration list for PBXNativeTarget "BarCodePresenter" */;
+			buildPhases = (
+				8CC80A6D138D3C320032BE8B /* Sources */,
+				8CC80A6E138D3C320032BE8B /* Frameworks */,
+				8CC80A6F138D3C320032BE8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarCodePresenter;
+			productName = BarCodePresenter;
+			productReference = 8CC80A71138D3C320032BE8B /* BarCodePresenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC80A68138D3C320032BE8B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8CC80A6B138D3C320032BE8B /* Build configuration list for PBXProject "BarCodePresenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CC80A66138D3C320032BE8B;
+			productRefGroup = 8CC80A72138D3C320032BE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC80A70138D3C320032BE8B /* BarCodePresenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC80A6F138D3C320032BE8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC80A80138D3C320032BE8B /* InfoPlist.strings in Resources */,
+				8CC80A89138D3C320032BE8B /* MainWindow.xib in Resources */,
+				8CC80A8F138D3C320032BE8B /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC80A6D138D3C320032BE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC80A83138D3C320032BE8B /* main.m in Sources */,
+				8CC80A86138D3C320032BE8B /* BarCodePresenterAppDelegate.m in Sources */,
+				8CC80A8C138D3C320032BE8B /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CC80A7E138D3C320032BE8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC80A7F138D3C320032BE8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CC80A87138D3C320032BE8B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC80A88138D3C320032BE8B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8CC80A8D138D3C320032BE8B /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC80A8E138D3C320032BE8B /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC80A90138D3C320032BE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CC80A91138D3C320032BE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8CC80A93138D3C320032BE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarCodePresenter/BarCodePresenter-Prefix.pch";
+				INFOPLIST_FILE = "BarCodePresenter/BarCodePresenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CC80A94138D3C320032BE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarCodePresenter/BarCodePresenter-Prefix.pch";
+				INFOPLIST_FILE = "BarCodePresenter/BarCodePresenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC80A6B138D3C320032BE8B /* Build configuration list for PBXProject "BarCodePresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC80A90138D3C320032BE8B /* Debug */,
+				8CC80A91138D3C320032BE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC80A92138D3C320032BE8B /* Build configuration list for PBXNativeTarget "BarCodePresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC80A93138D3C320032BE8B /* Debug */,
+				8CC80A94138D3C320032BE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC80A68138D3C320032BE8B /* Project object */;
+}
